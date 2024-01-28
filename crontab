@@ -1,0 +1,5 @@
+# m h  dom mon dow   command
+# backup server every hour
+0 * * * * /opt/palworld/backup_server.sh
+# restart server every 8 hours
+0 0,8,16 * * * sudo systemctl restart palworld

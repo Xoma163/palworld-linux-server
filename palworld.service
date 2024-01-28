@@ -1,0 +1,16 @@
+[Unit]
+Description=Palworld Dedicated Server
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=palworld
+Group=palworld
+Restart=always
+ExecStart=/opt/palworld/server/PalServer.sh -useperfthreads -NoAsyncLoadingThread -UseMultithreadForDS > /dev/null
+ExecStop=/bin/bash -c '/usr/bin/rcon-cli --config /opt/palworld/.rcon-cli.yaml "shutdown 2 SERVER_SHUTTING_DOWN" && sleep 3'
+KillMode=control-group
+TimeoutStopSec=15
+
+[Install]
+WantedBy=multi-user.target
