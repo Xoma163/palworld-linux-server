@@ -75,7 +75,7 @@ in `/etc/systemd/system/palworld.service`
 
 ### Restore backup
 
-- Untar archive and put in to Saved folder
+- Untar archive and put in to `/opt/palworld/server/Pal/Saved` folder
 
 ### How to edit config?
 
