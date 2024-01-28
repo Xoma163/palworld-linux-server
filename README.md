@@ -122,21 +122,17 @@ chmod 600 /etc/sudoers.d/palworld
 
 ## Useful links
 
-[HowTo-Palworld github](https://github.com/A1RM4X/HowTo-Palworld)
-
-[Official guide](https://tech.palworldgame.com/dedicated-server-guide#linux)
-
-[Server settings](https://help.dathost.net/article/150-palworld-how-to-edit-server-settings)
-
-[Pretty server configuration generator](https://pal-conf.bluefissure.com/)
+- [HowTo-Palworld github](https://github.com/A1RM4X/HowTo-Palworld) - guide how to install server on linux
+- [Palworld Server Community FAQ github](https://gist.github.com/Toakan/3c78a577c21a21fcc5fa917f3021d70e) - amazing FAQ
+- [Official guide](https://tech.palworldgame.com/dedicated-server-guide#linux) - official guide and troubleshooting
+- [Server settings](https://help.dathost.net/article/150-palworld-how-to-edit-server-settings) - verebose config info
+- [Server configuration generator](https://pal-conf.bluefissure.com/) - Pretty generator 
 
 ---
 
-[Pal calculator](https://palworld.gg/breeding-calculator)
-
-[Interactive map](https://mapgenie.io/palworld/maps/palpagos-islands)
-
-[Pals wiki](https://game8.co/games/Palworld/archives/439556)
+- [Pal calculator](https://palworld.gg/breeding-calculator)
+- [Interactive map](https://mapgenie.io/palworld/maps/palpagos-islands)
+- [Pals wiki](https://game8.co/games/Palworld/archives/439556)
 
 ## Useful info
 
